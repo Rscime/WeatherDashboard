@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <h2>Weather Forecast</h2>
+    <!-- Main body -->
+    <div class="row">
+        <div class="col-sm-4">
+            <form>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" class="form-control" id="city" placeholder="Enter City Here">
+                    <button type="submit" class="btn btn-default">Search</button>
+                  </div>
+            </form>
+        </div>
+        <div class="col-sm-8">
+            <h3>Your 5 day Weather Forecast</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Day1</li>
+                <li class="list-group-item">Day2</li>
+                <li class="list-group-item">Day3</li>
+                <li class="list-group-item">Day4</li>
+                <li class="list-group-item">Day5</li>
+              </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
